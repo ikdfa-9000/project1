@@ -6,6 +6,6 @@ func main() {
 	b := &a // Указывает на память, где находится переменная a
 	println(b)
 	println(a + *b) // *b = a
-	println(a)
+	println(a)      // Очередной комментарий
 	println(a + a)
 }
